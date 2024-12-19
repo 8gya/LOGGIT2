@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Russo+One&display=swap');
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    margin-top: 30px;
+    padding: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 100vh;
+    padding-top: 12vh;
+}
+
+.back-button-container {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.back-button {
+    font-family: 'Press Start 2P', cursive;
+    border: 2px solid white;
+    color: white;
+    background-color: transparent;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: grey;
+    color: black;
+}
+
+h1 {
+    color: red;
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+
+.profile-container {
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: transparent;
+    display: block;
+    width: 90%;
+    max-width: 500px;
+    margin: 30px auto;
+    text-align: left;
+}
+
+.user-details p {
+    font-family: 'Russo One', sans-serif;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.games-list {
+    margin-top: 20px;
+}
+
+.games-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.game-item {
+    display: block; 
+    margin-bottom: 25px;
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+    font-family: 'Russo One', sans-serif;
+}
+
+.button-container {
+    margin-top: 30px;
+}
+
+.custom-button {
+    width: calc(100% - 20px);
+    max-width: 400px;
+    padding: 12px;
+    font-family: 'Press Start 2P', cursive;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.custom-button:hover {
+    background-color: grey;
+    color: black;
+}

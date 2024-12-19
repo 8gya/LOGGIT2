@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Russo+One&display=swap');
+
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 100vh;
+    padding-top: 15vh;
+}
+
+h1 {
+    text-align: center;
+    color: red;
+    font-size: 400%;
+    font-family: 'Press Start 2P', sans-serif;
+    margin-bottom: 10px;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    font-size: 200%;
+    font-family: 'Russo One', sans-serif;
+    margin-bottom: 10px;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.custom-button {
+    font-family: 'Press Start 2P', cursive;
+    border: 2px solid white;
+    color: white;
+    background-color: transparent;
+    padding: 10px 20px;
+    margin: 10px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.custom-button:hover {
+    background-color: grey;
+    color: black;
+}
+
+.small-title {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: red;
+    font-size: 150%;
+    font-family: 'Press Start 2P', sans-serif;
+    text-decoration: none;
+}

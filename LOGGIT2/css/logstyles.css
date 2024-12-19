@@ -1,0 +1,96 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Russo+One&display=swap');
+
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    padding-top: 10vh;
+}
+
+.back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-family: 'Press Start 2P', cursive;
+    border: 2px solid white;
+    color: white;
+    background-color: transparent;
+    padding: 10px 20px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: grey;
+    color: black;
+}
+
+h1 {
+    color: red;
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+
+.form-container {
+    margin: 30px auto;
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 600px;
+    text-align: left;
+    font-family: 'Russo One', sans-serif;
+    background-color: transparent;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+    font-family: 'Russo One', sans-serif;
+}
+
+input, textarea {
+    width: calc(100% - 20px);
+    margin-bottom: 15px;
+    padding: 10px;
+    font-family: 'Russo One', sans-serif;
+    font-size: 14px;
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+    box-sizing: border-box;
+    outline: none;
+}
+
+input:focus, textarea:focus {
+    border-color: grey;
+}
+
+.custom-button {
+    width: 100%;
+    padding: 10px;
+    font-family: 'Press Start 2P', cursive;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.custom-button:hover {
+    background-color: grey;
+    color: black;
+}

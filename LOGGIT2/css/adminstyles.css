@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Russo+One&display=swap');
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.back-button-container {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.back-button {
+    font-family: 'Press Start 2P', cursive;
+    border: 2px solid white;
+    color: white;
+    background-color: transparent;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: grey;
+    color: black;
+}
+
+h1 {
+    color: red;
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+
+.admin-section {
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: left;
+    font-family: 'Russo One', sans-serif;
+    background-color: transparent;
+}
+
+.admin-section h2 {
+    margin-bottom: 10px;
+    color: red;
+    font-size: 1.5rem;
+}
+
+.admin-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.admin-section li {
+    margin-bottom: 20px;
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+}
+
+/* Buttons */
+.custom-button {
+    padding: 8px 16px;
+    border: 2px solid white;
+    color: white;
+    background-color: transparent;
+    font-family: 'Press Start 2P', cursive;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.custom-button:hover {
+    background-color: grey;
+    color: black;
+}
+
+.delete-button {
+    border-color: red;
+    color: red;
+}
+
+.delete-button:hover {
+    background-color: red;
+    color: white;
+}
+
+.admin-button-container {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.admin-button {
+    font-family: 'Press Start 2P', cursive;
+    border: 2px solid white;
+    color: white;
+    background-color: transparent;
+    padding: 10px 20px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.admin-button:hover {
+    background-color: grey;
+    color: black;
+}

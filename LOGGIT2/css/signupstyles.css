@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Russo+One&display=swap');
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.back-button-container {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.back-button {
+    font-family: 'Press Start 2P', cursive;
+    border: 2px solid white;
+    color: white;
+    background-color: transparent;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: grey;
+    color: black;
+}
+
+h1 {
+    color: red;
+    font-size: 3rem;
+    margin: 20px 0;
+}
+
+h2 {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.form-container {
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    background-color: transparent;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-family: 'Russo One', sans-serif;
+    color: white;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+    font-family: 'Russo One', sans-serif;
+}
+
+input:focus {
+    border-color: grey;
+}
+
+.custom-button {
+    width: 100%;
+    padding: 10px;
+    font-family: 'Press Start 2P', cursive;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.custom-button:hover {
+    background-color: grey;
+    color: black;
+}
